@@ -1,0 +1,5 @@
+DB_URI = 'postgresql://postgres:admin@localhost/postgres'
+DB_SCHEMA = 'latvia_afisha'
+EVENT_TABLE_NAME = 'event'
+EVENT_INFO_TABLE_NAME = 'info'
+SPREADSHEET_ID = '14CZDfVHinBGG7s47Y5VmUo0kjP1vuiOTadX-JOzHDVc'
