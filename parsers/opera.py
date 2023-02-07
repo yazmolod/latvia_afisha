@@ -1,9 +1,8 @@
 import re
-
-import pandas as pd
 from dateutil.relativedelta import relativedelta
-from _base_parser import BaseParser
-from datetime import date, datetime
+from ._base_parser import BaseParser
+from datetime import date
+
 
 class OperaParser(BaseParser):
     HOST = 'https://www.opera.lv'
@@ -125,11 +124,5 @@ class OperaParser(BaseParser):
                     cinfo['event_date'] = f'{month} {day}'
                     dinfo = self.parse_detailed_info(cinfo['source_link'], event_date)
                     result_info = {**cinfo, **dinfo}
-                    yield result_info
-
-if __name__ == '__main__':
-    from GIS_Tools import FastLogging
-    from pprint import pprint
-    _ = FastLogging.getLogger('OperaParser')
-    p = OperaParser()
-    p.main()
+                    if 'inner_id' in result_info:
+                        yield result_info

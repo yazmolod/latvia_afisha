@@ -1,11 +1,11 @@
-from config import DB_URI, DB_SCHEMA, EVENT_TABLE_NAME, EVENT_INFO_TABLE_NAME
+from config import DB_URI, EVENT_TABLE_NAME
 import sqlalchemy as sa
 from sqlalchemy.sql import func
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 engine = sa.create_engine(DB_URI)
 Session = sessionmaker(engine)
-meta = sa.MetaData(schema=DB_SCHEMA)
+meta = sa.MetaData()
 Base = declarative_base(engine, meta)
 
 
@@ -35,7 +35,7 @@ class EventModel(Base):
                 i = cls(**data)
                 session.add(i)
 
-
-with Session.begin() as session:
-    session.execute(f'CREATE SCHEMA IF NOT EXISTS {DB_SCHEMA}')
+# for postgresql
+# with Session.begin() as session:
+#     session.execute(f'CREATE SCHEMA IF NOT EXISTS {DB_SCHEMA}')
 Base.metadata.create_all()

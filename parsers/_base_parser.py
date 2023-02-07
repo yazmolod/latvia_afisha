@@ -6,6 +6,7 @@ import warnings
 from model import EventModel
 warnings.filterwarnings('ignore')
 
+
 class BaseParser:
     model = EventModel
 

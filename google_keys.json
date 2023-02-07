@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "indesigndatasync",
+  "private_key_id": "9ecfae70b87e8e34917e18667c096e114f1b7311",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCvopdhaYLThMKc\nO0p8t57nVueup+EFrf8dvsWmHwvbO+t7084WuuYQtvopAUeqeKTYxE6FQFsvDwk2\n5ZyaKfF0+h2iSi9zI4ND/OPeGl1UuJRZf4Wc+eUcGLq+dgRfXr1FWzhzquFrxAn2\n18Gfnd/1piltCyIMlwXIPwvLntrUomVmGqTROTirED8LRZfB/a5SvdUwTKtIcWYY\np4MH9USJma1bSdjsbXmdSUI8lVgvHk5iEcfMJHmQXeEBQzycI84oti99wii1ucNQ\n4+IMSrwzwJ0GyFPDignCqgSQ6/80fOVn8wSsi80tFNfIGhG7hWeoe79GcRwUf+RY\ngdYs9/rtAgMBAAECggEAHvb1JesuccCw987bN8g+t24CrC/0U+ZEeVfKLFrCYh07\nC8qAhdDfIVjFG2ganLMm6wGXD1aUjOQjfX53QNW+uF8lTNiz62J6MMkb2ms/A6IE\nI5BAO/fxvOWePNh9NlwzVdA6kGfy1KdME20f+ZZhpwMrwAoLr3kLv61f1L8VuRF6\nrmiLWgtV2cILMdqQha/8T11u6rBgwQmh9pwT9blsrpWAochiTbOvJ0HdXAU3bVWK\n4jum2ARf2HRllaWn8EZyB7Dcqdu5SuiTcgFVd98CNZ7pIvfqJCd3gZEtMmS3r6mX\nenn+2dfVOZkgZPriv6WGu/hi94nxmyAJDx+BVMi98QKBgQDab5d47Sv+M9BvekoK\nqPemLkVcS0mr8Cm7WNXBfl6Awob6/iACtHkJDe+yFhoM2fThF4uSOEamqlwcohwZ\ntdk0WWaq3hiYxHn90UtlA/355rHsc1aI1eR0rktdP5ETEfa/ONNffEOC8A4/YIuV\n5D0+hKTR+2KXyg08V8Oz3Q03HQKBgQDN1r2gDfp5sUMw0YBvxhYtpTimcgCthfgG\npgGct83Y9uYisiH2vgBDaBgMuhi7oB4PuWp+2yIS7yFEWfDYiIc/P40xiFFN/bcI\nASM80waBRO3K/ppA18auLSoILaKvX6zH+rPH6UL80fEe1fdu7bnH9lr9wctoUor6\n14wOYEn6EQKBgFAcxU0QjyX4EuYPz8ABIHLOXZnv8uEgf+26Mwt4MWi/74l2Un8r\neYicl+CUwpEcDvfPDt1dzmup54aI3g1/6F2OvFzGf/bneGZisGgoAqn4tiCmXIJr\nEBLLKdDVU3vPBtQzHzLR/GC1ckREQG2E/AFF3L02mX5aGGidN6Vr2UDxAoGBAL/P\n327Z99IU9Gb2o3gFID+y2kKIs8b/s2wGoDP5OBJ5qWUll+7FiZtG0jpx5IBbKgg/\nIVVLQMpiGh8GrSAqwdWXlCxXOmSyDDCiVsLkZwhpQipK7VWFfbhrj+KFHDfOsUS9\ng3DEFs9fmBDDFMtDLj9/e7VCNRlm6ensmLAA3I7xAoGBAJ8m4iFkiwIqrQnr0mJG\npwDFtfawnkWrcpXcYFemqltovYLVlX8IqH+l8/HVIb85r+SfKQrjcfmUIDQ5BdSU\nAZOypqXh+jMFIDKXUnxNp+m+JNwbaAEgUwWFRgJGyupxcqbsGqCNaHSyBs5lokz3\nXqHodbAsn4fHkO6YeC8A8GHz\n-----END PRIVATE KEY-----\n",
+  "client_email": "bot-681@indesigndatasync.iam.gserviceaccount.com",
+  "client_id": "106578517045646890043",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bot-681%40indesigndatasync.iam.gserviceaccount.com"
+}

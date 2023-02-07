@@ -1,6 +1,6 @@
 import re
+from ._base_parser import BaseParser
 
-from _base_parser import BaseParser
 
 class LiveRigaParser(BaseParser):
     LANGS = [
@@ -79,11 +79,3 @@ class LiveRigaParser(BaseParser):
                     data['inner_id'] = inner_id
                     data['lang'] = lang
                     yield data
-
-
-if __name__ == '__main__':
-    from GIS_Tools import FastLogging
-    from pprint import pprint
-    _ = FastLogging.getLogger('LiveRigaParser')
-    p = LiveRigaParser()
-    p.main()
