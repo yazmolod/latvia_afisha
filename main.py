@@ -25,7 +25,7 @@ def enable_logger(name):
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
     logger.addHandler(stream_handler)
-    file_handler = logging.FileHandler(f'debug.log', 'a+', encoding='utf-8')
+    file_handler = logging.FileHandler(f'output/debug.log', 'a+', encoding='utf-8')
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(FORMATTER)
     logger.addHandler(file_handler)
